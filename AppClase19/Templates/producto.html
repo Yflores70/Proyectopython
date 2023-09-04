@@ -2,18 +2,16 @@
 {% load static %}
 {% block contenidoQueCambia %}
 <!--Aquí va lo que cambia, y lo asociado a está vista :) -->
-    <h1>Categoria de Productos</h1>
+    <h1>Lista Productos</h1>
 
     <ul>
         
-        {% for categoria in lista_categorias %}
-            <li>{{categoria.nombre}}</li>
+        {% for producto in lista_productos %}
+            <li>{{producto.nombre}}</li>
         {% endfor %}
             
 
     </ul>
 
+
 {% endblock %}
-
-
-

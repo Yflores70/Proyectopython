@@ -2,18 +2,15 @@
 {% load static %}
 {% block contenidoQueCambia %}
 <!--Aquí va lo que cambia, y lo asociado a está vista :) -->
-    <h1>Categoria de Productos</h1>
+    <h1>Lista de Clientes</h1>
 
     <ul>
         
-        {% for categoria in lista_categorias %}
-            <li>{{categoria.nombre}}</li>
+        {% for cliente in lista_clientes %}
+            <li>{{cliente.nombre}}</li>
         {% endfor %}
             
 
     </ul>
 
 {% endblock %}
-
-
-
