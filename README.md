@@ -1,2 +1,1 @@
-# Proyectopython
-Proyecto de Python
+Web de una tienda online Herencia Html desde los archivos: padre.html, navbar.html Formularios para insertar datos a los models: -Cliente: formulario.html desde url /agregar-clientes -Producto: agregaproducto.html desde url /agregar-productos -Categoria: agregacategoria.html desde url /agregar-categorias Formulario de Busqueda en la Base de Datos: -desde url: muestra la busqueda /busqueda-clientes -desde url hace la busqueda: /buscar-clientes/
